@@ -1,0 +1,87 @@
+body{
+    
+}
+hr{
+    width: 80px;
+}
+footer{
+    height: 50px;
+    bottom: 0;
+}
+.footer-copyright{
+    height: 50px;
+}
+.nav-link{
+    margin-left: 20px;
+}
+.jumbotron{
+    height: auto;
+    background-image: url(../img/myimage/jumbotron.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.jumbotron .container img{
+    margin-bottom: 30px;
+    width: 180px;
+}
+.jumbotron .container h1, h3{
+    color: #4285f4;
+    text-shadow: 1px 1px rgba(255,255,255);
+}
+.say{
+    margin-bottom: 10px;
+}
+.card{
+    border-radius: 10px;
+    z-index: 99;
+}
+.card img{
+    width: 300px;
+    height: 200px;
+}
+#chart{
+    margin-top: 70px;
+}
+.progress{
+    height: 7px;
+}
+@media(min-width: 992px){
+    .jumbotron{
+        height: 500px;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: 0 -170px;
+    }
+    .jumbotron .container h1{
+        font-size: 42px;
+    }
+    .jumbotron .container h3{
+        font-size: 28px;
+    }
+    .chart{
+        margin-left: 25%;
+    }
+    #nav-box{
+        margin-top: -100px;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .jumbotron{
+        background-size: cover;
+        background-position: -270px -170px;
+    }
+    .card{
+        
+        margin: 20px;
+    }
+    .jumbotron .container img{
+        width: 150px;
+    }
+    .jumbotron .container h1{
+        font-size: 30px;
+    }
+    .jumbotron .container h3{
+        font-size: 20px;
+    }
+}

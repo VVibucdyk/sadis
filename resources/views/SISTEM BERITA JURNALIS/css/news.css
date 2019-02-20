@@ -1,0 +1,21 @@
+body{
+    margin-top: 60px;
+}
+span{
+    margin-top: -5px;
+}
+footer{
+    margin-top: 20px;
+}
+.card{
+    margin-bottom: 30px;
+}
+.card img{
+    height: 180px;
+}
+.btn{
+    border-radius: 30px;
+}
+.add-btn{
+    margin-bottom: 20px;
+}
